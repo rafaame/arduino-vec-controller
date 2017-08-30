@@ -1,0 +1,6 @@
+[submodule "src/common"]
+	path = src/common
+	url = git@github.com:rafaame/arduino-vec-common.git
+[submodule "src/vec-common"]
+	path = src/vec-common
+	url = git@github.com:rafaame/vec-common.git
