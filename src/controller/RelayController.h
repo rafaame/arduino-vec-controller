@@ -17,22 +17,23 @@ enum Relay_t {
     RELAY_6 = 34,
     RELAY_7 = 36,
 
-    RELAY_8  = 23,
-    RELAY_9  = 25,
-    RELAY_10 = 27,
-    RELAY_11 = 29,
-    RELAY_12 = 31,
-    RELAY_13 = 33,
-    RELAY_14 = 35,
-    RELAY_15 = 37,
+    RELAY_8  = 38,
+    RELAY_9  = 40,
+    RELAY_10 = 42,
+    RELAY_11 = 44,
+    RELAY_12 = 46,
+    RELAY_13 = 48,
+    RELAY_14 = 50,
+    RELAY_15 = 52,
 
-    RELAY_16 = 39,
-    RELAY_17 = 41,
-    RELAY_18 = 43,
-    RELAY_19 = 45,
-    RELAY_20 = 47,
-    RELAY_21 = 49,
-    RELAY_22 = 51
+    RELAY_16 = 21,
+    RELAY_17 = 23,
+    RELAY_18 = 25,
+    RELAY_19 = 27,
+    RELAY_20 = 31,
+    RELAY_21 = 33,
+    RELAY_22 = 35,
+    RELAY_23 = 37
 };
 
 class RelayController {
