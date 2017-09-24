@@ -88,9 +88,6 @@ bool ComfortModule::setVentilatorSpeed(RequestPacket *packet) {
 	}
 
 	uint8_t speed = (uint8_t) atoi(packet->data.c_str());
-	Serial.print("Speed: ");
-	Serial.println((int) speed);
-
 	relayController->setLow(RELAY_VENTILATOR_SPEED_1);
 	relayController->setLow(RELAY_VENTILATOR_SPEED_2);
 	relayController->setLow(RELAY_VENTILATOR_SPEED_3);
